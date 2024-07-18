@@ -1,0 +1,5 @@
+     ../hangul/hangulctype.c \
+     ../hangul/hangulinputcontext.c \
+     ../hangul/hangulkeyboard.c \
+     ../hangul/hanja.c \
+     ../tools/hangul.c
