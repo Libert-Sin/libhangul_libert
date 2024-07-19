@@ -1,6 +1,10 @@
 기존 세벌식 자판 변형 추가.
 
 
+![image_2024-07-19_14-59-04](https://github.com/user-attachments/assets/4d16db9b-74c3-47f2-9ebd-e3da1f3d23c4)
+
+
+
 
 공병우 최종자판 기준 
 
@@ -10,8 +14,6 @@
 
 특수문자 추가 및 재배치.
 
-
-![image](https://github.com/user-attachments/assets/a5d664cd-4e38-4dfe-83c7-a28ca126a8fa)
 
 
 편한 커스텀을 위해 '키코드-밸류_자동생성.ods' 작성.
