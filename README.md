@@ -8,3 +8,8 @@
 
 
 ![image](https://github.com/user-attachments/assets/a5d664cd-4e38-4dfe-83c7-a28ca126a8fa)
+
+
+
+
+밸류, 키값 자동 생성 ods파일 추가제작.
