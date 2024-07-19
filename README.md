@@ -38,6 +38,10 @@
 
 # 설치
 
+ibus 의존성 먼저 해결한 후
+
+
+
 3개의 폴더 순서대로
 
 make clean
@@ -51,3 +55,7 @@ make install
 ibus 강제 설치 (끝 글자 버그 처리)
 
 sudo pacman -S --overwrite "*" ibus
+
+
+
+· 
