@@ -45,10 +45,15 @@ ibus 의존성 먼저 해결한 후
 3개의 폴더 순서대로
 
 make clean
+
 ./autogen.sh
+
 ./configure --prefix /usr
+
 make
+
 make install
+
 
 3개 폴더 컴파일 설치 완료 후
 
