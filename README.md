@@ -39,6 +39,7 @@
 # 설치
 
 ibus 의존성 먼저 해결한 후
+
 pacman -S gtk-doc gtk2 glib2  glib2-devel glib-genmarshal vala gobject-introspection unicode-cldr-annotations unicode-emoji
 
 
