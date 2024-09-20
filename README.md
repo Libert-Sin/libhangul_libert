@@ -52,7 +52,7 @@ make clean
 
 make
 
-make install
+sudo make install
 
 
 3개 폴더 컴파일 설치 완료 후
