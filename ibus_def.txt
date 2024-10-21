@@ -1,0 +1,15 @@
+sudo pacman -S gtk-doc
+
+sudo mkdir -p /usr/share/unicode/emoji
+sudo wget -O /usr/share/unicode/emoji/emoji-test.txt http://www.unicode.org/Public/emoji/4.0/emoji-test.txt
+
+
+sudo mkdir -p /usr/share/unicode/cldr/common/annotations
+sudo wget -O /usr/share/unicode/cldr/core.zip https://unicode.org/Public/cldr/latest/core.zip
+sudo unzip -j /usr/share/unicode/cldr/core.zip common/annotations/en.xml -d /usr/share/unicode/cldr/common/annotations
+sudo rm /usr/share/unicode/cldr/core.zip
+sudo mkdir -p /usr/share/unicode/ucd
+sudo wget -O /usr/share/unicode/ucd/NamesList.txt https://www.unicode.org/Public/UNIDATA/NamesList.txt
+sudo wget -O /usr/share/unicode/ucd/Blocks.txt https://www.unicode.org/Public/UNIDATA/Blocks.txt
+sudo pacman -S glib2 glib2-devel gobject-introspection --noconfirm
+sudo pacman -S vala

@@ -1,0 +1,46 @@
+git clone https://github.com/ibus/ibus.git
+cd ibus
+
+sudo mkdir -p /usr/share/unicode/{emoji,ucd,cldr/common/annotations}
+sudo wget -O /usr/share/unicode/emoji/emoji-test.txt https://unicode.org/Public/emoji/latest/emoji-test.txt
+sudo wget -O /usr/share/unicode/ucd/NamesList.txt https://unicode.org/Public/UNIDATA/NamesList.txt
+sudo wget -O /usr/share/unicode/ucd/Blocks.txt https://unicode.org/Public/UNIDATA/Blocks.txt
+sudo wget -O /usr/share/unicode/cldr/common/annotations/en.xml https://unicode.org/Public/cldr/latest/core.zip
+sudo unzip -j /usr/share/unicode/cldr/common/annotations/en.xml common/annotations/en.xml -d /usr/share/unicode/cldr/common/annotations
+sudo rm /usr/share/unicode/cldr/common/annotations/en.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo pacman -S --overwrite "*" ibus
