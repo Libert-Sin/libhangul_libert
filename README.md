@@ -1,7 +1,14 @@
 ![image](https://github.com/user-attachments/assets/8947c17a-a07b-4b86-adca-5e07394723d4)
 
+```bash
+#서브모듈 다운로드
+git submodule update --init --recursive
+```
 
 # libhangul 키 배치 추가
+
+
+
 1. 키코드-밸류_자동생성.ods 실행 후 키 배치구상 시트 세번째 블록에 원하는 키 배치 입력.
 
 2. calc 시트에서 *과 ?에 해당하는 키값만 수동 입력
