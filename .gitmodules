@@ -1,0 +1,6 @@
+[submodule "ibus-hangul"]
+	path = ibus-hangul
+	url = https://github.com/libhangul/ibus-hangul.git
+[submodule "ibus"]
+	path = ibus
+	url = https://github.com/ibus/ibus.git
